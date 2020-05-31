@@ -1,0 +1,103 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+body{
+	padding-top: 60px;
+	
+}
+
+section{
+	overflow: auto;
+}
+
+textarea{
+	resize: vertical;
+}
+
+.center{
+	text-align: center;
+}
+
+.center h1{
+	margin-bottom: 10px;
+}
+
+.content{
+	min-height: 550px;
+}
+/*footer*/
+.footer{
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 13px 0;
+}
+.gmail{
+	color: #9D9D9D;
+}
+.link_footer{
+	padding: 0 5px;
+	color: #9D9D9D;
+}
+
+.link_footer:hover{
+	color: white;
+}
+
+/*header*/
+#logo{
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+}
+
+ /*login*/
+
+ .login{
+ 	height: auto;
+ 	width: 300px;
+ 	border: 1px solid red;
+ 	padding: 0px 20px 20px 20px;
+ }
+ .login h1{
+ 	text-align: center;
+ }
+  label{
+ 	font-size: 17px;
+ 	margin-bottom: 5px;
+ }
+ .username, .password{
+ 	padding: 2px 0px 2px 15px;
+	width: 100%;
+ 	font-size: 16px;
+ 	border-radius: 2px;
+ 	margin-bottom: 15px;
+ 	color: #9D9D9D;
+ }
+
+ .submit_login{
+ 	padding: 5px 6px; 
+ 	font-size: 17px;
+ 	border-radius: 3px;
+ 	background: green;
+ 	margin: 0 auto;
+ 	display: block;
+ }
+
+
+
+/* forms */
+input, textarea, select, .uneditable-input {
+border: 1px solid #bbb;
+width: 100%;
+margin-bottom: 15px;
+
+}
+input {
+height: auto !important;
+}

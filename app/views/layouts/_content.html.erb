@@ -1,0 +1,8 @@
+<div class="content">
+	<div class="container">
+		<% flash.each do |type_message, message| %>
+		<div class="alert alert-<%= type_message %>"><%= message %></div>
+		<% end %>
+    	<%= yield %>
+	</div>
+</div>
